@@ -1,0 +1,19 @@
+.SearchButton
+{
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    background-color: #10b981;
+    border: none;
+    margin-left: 3rem;
+    color: #fff;
+}
+
+.SearchButton:hover
+{
+    background-color: #059669;
+}

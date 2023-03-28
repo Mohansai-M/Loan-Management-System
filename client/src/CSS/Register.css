@@ -1,0 +1,129 @@
+.RegisterForm .NewUser, .RegisterForm select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border-radius: 9px;
+    background-color: #f1f9f3;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.NameDiv,.PasswordDiv
+{
+    display:flex;
+}
+
+.RegisterForm label {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.Register input:focus {
+  outline: 3px solid #a7f3d0;
+}
+.RegisterPage
+{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+    transition: all 0.4s;
+    overflow: hidden;
+    width: 65rem;
+    margin: 10rem auto;
+    padding-top: 2rem;
+}
+.Register {
+    padding: 2rem 2.4rem 3.5rem 2.4rem;
+    margin-left: 5rem;
+    color: #065f46;
+    transition: all 0.3s;
+}
+.RegisterForm
+{
+    align-items: center;
+    width: 50rem;
+}
+.NewUser
+{
+    border: none;
+    color: #065f46;
+}
+.NameDiv div,
+.EmailDiv div,
+.PasswordDiv div
+{
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+button
+{
+  border: none;
+  cursor: pointer;
+}
+.RegisterButton
+{
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    background-color: #fff;
+    color: #065f46;
+    margin-left: 3rem;
+}
+.RegisterButton:hover,
+.RegisterButton:active {
+  background-color: #ecfdf5;
+
+  /* border: 3px solid #fff; */
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #10b981;
+}
+
+.LoginButton
+{
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    background-color: #10b981;
+    border: none;
+    margin-left: 3rem;
+    color: #fff;
+}
+.register-link:link.register-link:visited
+{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+.register-link:active,.register-link:hover
+{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+
+.LoginButton:hover
+{
+    background-color: #059669;
+}
+.register-link
+{
+    color: #fff;
+}
+
+.Button_Group
+{
+    margin-top: 5%;
+    margin-left: 6rem;
+}

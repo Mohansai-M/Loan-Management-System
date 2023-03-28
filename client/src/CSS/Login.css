@@ -1,0 +1,105 @@
+.LoginForm .Loginner, .LoginForm select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border-radius: 9px;
+    margin-bottom: 1.5rem;
+    background-color: #f1f9f3;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.LoginForm label {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.Login input:focus {
+   outline: 3px solid #a7f3d0;
+}
+.LoginPage
+{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+    transition: all 0.4s;
+    overflow: hidden;
+    width: 50rem;
+    margin: 15rem auto;
+
+}
+.Login {
+    padding: 4.8rem 2.4rem 6.4rem 2.4rem;
+    margin-left: 5rem;
+    color: #065f46;
+    width: 40rem;
+    transition: all 0.3s;
+}
+
+button
+{
+  border: none;
+  cursor: pointer;
+}
+.Loginbutton
+{
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    background-color: #fff;
+    color: #065f46;
+    margin-left: 3rem;
+}
+.Loginbutton:hover,
+.Loginbutton:active {
+  background-color: #ecfdf5;
+
+  /* border: 3px solid #fff; */
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #10b981;
+}
+
+.Loginner
+{
+    border: none;
+    color: #065f46;
+}
+.Registerbutton
+{
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    background-color: #10b981;
+    border: none;
+    margin-left: 3rem;
+    color: #fff;
+}
+.register-link:link.register-link:visited
+{
+    text-decoration: none;
+     color: #fff;
+}
+.register-link:active,.register-link:hover
+{
+    text-decoration: none;
+    color: #fff;
+}
+.Registerbutton:hover
+{
+    background-color: #059669;
+}
+.register-link
+{
+    color: #fff;
+}
